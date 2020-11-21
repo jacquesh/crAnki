@@ -1,0 +1,17 @@
+[package]
+name = "cranki"
+version = "0.1.0"
+authors = ["Jacques Heunis <git@jacquesheunis.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.6"
+dirs = "3.0"
+getopts = "0.2"
+rand = "0.7.3"
+serde = { features = ["derive"] }
+serde_json = "1.0.39"
+sha1 = "0.6.0"
+sqlite = "0.24.0"
